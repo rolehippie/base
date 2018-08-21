@@ -1,0 +1,11 @@
+- name: include vars
+  include_vars: ubuntu.yml
+  when: ansible_distribution == 'Ubuntu'
+  tags:
+    - base
+
+- name: include ubuntu
+  include_tasks: ubuntu.yml
+  when: ansible_distribution == 'Ubuntu'
+  tags:
+    - base
