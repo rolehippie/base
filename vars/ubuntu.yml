@@ -11,3 +11,4 @@ base_packages:
   - jq
   - curl
   - apt-dater
+  - net-tools
