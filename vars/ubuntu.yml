@@ -12,3 +12,4 @@ base_packages:
   - curl
   - apt-dater
   - net-tools
+  - traceroute
