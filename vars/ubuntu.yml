@@ -10,6 +10,6 @@ base_packages:
   - socat
   - jq
   - curl
-  - apt-dater
+  - apt-dater-host
   - net-tools
   - traceroute
