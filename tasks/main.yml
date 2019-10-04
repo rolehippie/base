@@ -1,11 +1,17 @@
 - name: include vars
-  include_vars: ubuntu.yml
-  when: ansible_distribution == 'Ubuntu'
+  include_vars: '{{ item }}'
+  with_first_found:
+    - '{{ ansible_distribution | lower }}-{{ ansible_distribution_version }}.yml'
+    - '{{ ansible_distribution | lower }}.yml'
+    - '{{ ansible_os_family | lower }}.yml'
   tags:
     - base
 
-- name: include ubuntu
-  include_tasks: ubuntu.yml
-  when: ansible_distribution == 'Ubuntu'
+- name: include tasks
+  include_tasks: '{{ item }}'
+  with_first_found:
+    - '{{ ansible_distribution | lower }}-{{ ansible_distribution_version }}.yml'
+    - '{{ ansible_distribution | lower }}.yml'
+    - '{{ ansible_os_family | lower }}.yml'
   tags:
     - base

@@ -1,3 +1,4 @@
+---
 galaxy_info:
   author: Thomas Boerger
   description: Ansible role to install basics
@@ -12,3 +13,5 @@ galaxy_info:
   - base
 
 dependencies: []
+
+...
