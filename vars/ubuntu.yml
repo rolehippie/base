@@ -1,3 +1,6 @@
+# Standards: 0.1
+---
+# @var base_packages:description: List of packages to install
 base_packages:
   - apt-transport-https
   - software-properties-common
@@ -13,3 +16,5 @@ base_packages:
   - apt-dater-host
   - net-tools
   - traceroute
+
+...
