@@ -1,7 +1,11 @@
-- name: install packages
-  with_items: '{{ base_packages }}'
+# Standards: 0.1
+---
+- name: Install required packages
+  loop: '{{ base_packages }}'
   package:
     name: '{{ item }}'
     state: present
   tags:
     - base
+
+...
