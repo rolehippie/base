@@ -1,11 +1,11 @@
 # Standards: 0.1
 ---
 - name: Install required packages
-  loop: '{{ base_packages }}'
+  loop: "{{ base_packages }}"
   loop_control:
     loop_var: pkg
   package:
-    name: '{{ pkg }}'
+    name: "{{ pkg }}"
     state: present
   tags:
     - base
