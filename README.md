@@ -7,7 +7,8 @@ Ansible role to install basics
 ## Table of content
 
 * [Default Variables](#default-variables)
-  * [base_packages](#base_packages)
+  * [base_ubuntu_additional](#base_ubuntu_additional)
+  * [base_ubuntu_packages](#base_ubuntu_packages)
 * [Dependencies](#dependencies)
 * [License](#license)
 * [Author](#author)
@@ -16,13 +17,43 @@ Ansible role to install basics
 
 ## Default Variables
 
-### base_packages
+### base_ubuntu_additional
 
-List of packages to install
+Additionally install on Ubuntu
+
+#### Default value
+
+```YAML
+base_ubuntu_additional: []
+```
+
+### base_ubuntu_packages
+
+List of packages to install on Ubuntu
+
+#### Default value
+
+```YAML
+base_ubuntu_packages:
+  - apt-transport-https
+  - software-properties-common
+  - tree
+  - htop
+  - iotop
+  - sysstat
+  - ipvsadm
+  - update-notifier-common
+  - socat
+  - jq
+  - curl
+  - apt-dater-host
+  - net-tools
+  - traceroute
+```
 
 ## Dependencies
 
-- None
+* None
 
 ## License
 
