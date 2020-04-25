@@ -1,7 +1,7 @@
 # Standards: 0.1
 ---
 - name: Install required packages
-  loop: "{{ base_packages }}"
+  loop: "{{ base_ubuntu_packages + base_ubuntu_additional }}"
   loop_control:
     loop_var: pkg
   package:

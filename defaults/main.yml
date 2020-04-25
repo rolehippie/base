@@ -1,7 +1,7 @@
 # Standards: 0.1
 ---
-# @var base_packages:description: List of packages to install
-base_packages:
+# @var base_ubuntu_packages:description: List of packages to install on Ubuntu
+base_ubuntu_packages:
   - apt-transport-https
   - software-properties-common
   - tree
@@ -16,6 +16,8 @@ base_packages:
   - apt-dater-host
   - net-tools
   - traceroute
-  - fzf
+
+# @var base_ubuntu_additional:description: Additionally install on Ubuntu
+base_ubuntu_additional: []
 
 ...
