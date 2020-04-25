@@ -16,5 +16,6 @@ base_packages:
   - apt-dater-host
   - net-tools
   - traceroute
+  - fzf
 
 ...
