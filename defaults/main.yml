@@ -16,6 +16,7 @@ base_ubuntu_packages:
   - apt-dater-host
   - net-tools
   - traceroute
+  - acl
 
 # @var base_ubuntu_additional:description: Additionally install on Ubuntu
 base_ubuntu_additional: []
