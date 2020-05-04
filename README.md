@@ -49,6 +49,7 @@ base_ubuntu_packages:
   - apt-dater-host
   - net-tools
   - traceroute
+  - acl
 ```
 
 ## Dependencies
