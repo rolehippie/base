@@ -50,6 +50,7 @@ base_ubuntu_packages:
   - net-tools
   - traceroute
   - acl
+  - haveged
 ```
 
 ## Dependencies
