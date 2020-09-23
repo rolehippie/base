@@ -17,6 +17,7 @@ base_ubuntu_packages:
   - net-tools
   - traceroute
   - acl
+  - haveged
 
 # @var base_ubuntu_additional:description: Additionally install on Ubuntu
 base_ubuntu_additional: []
