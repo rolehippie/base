@@ -1,6 +1,5 @@
 import os
 import pytest
-
 import testinfra.utils.ansible_runner
 
 testinfra_hosts = testinfra.utils.ansible_runner.AnsibleRunner(
@@ -22,7 +21,9 @@ testinfra_hosts = testinfra.utils.ansible_runner.AnsibleRunner(
     "curl",
     "apt-dater-host",
     "net-tools",
-    "traceroute"
+    "traceroute",
+    "acl",
+    "haveged"
 ])
 def test_is_installed(host, package):
     pkg = host.package(package)
