@@ -1,7 +1,7 @@
 ---
 repository:
   name: base
-  description: Ansible role for base
+  description: Ansible role to install useful basic packages
   topics: ansible, role, ansible-role
 
   private: false

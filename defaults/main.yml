@@ -1,4 +1,4 @@
-# Standards: 0.1
+# Standards: 1.2
 ---
 # @var base_ubuntu_packages:description: List of packages to install on Ubuntu
 base_ubuntu_packages:
