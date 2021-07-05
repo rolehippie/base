@@ -18,6 +18,7 @@ base_ubuntu_packages:
   - traceroute
   - acl
   - haveged
+  - tmux
 
 # @var base_ubuntu_additional:description: Additionally install on Ubuntu
 base_ubuntu_additional: []

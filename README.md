@@ -57,6 +57,7 @@ base_ubuntu_packages:
   - traceroute
   - acl
   - haveged
+  - tmux
 ```
 
 ## Dependencies
