@@ -23,4 +23,10 @@ base_ubuntu_packages:
 # @var base_ubuntu_additional:description: Additionally install on Ubuntu
 base_ubuntu_additional: []
 
+# @var base_debian_packages:description: List of packages to install on Debian
+base_debian_packages: "{{ base_ubuntu_packages }}"
+
+# @var base_debian_additional:description: Additionally install on Debian
+base_debian_additional: "{{ base_ubuntu_additional }}"
+
 ...

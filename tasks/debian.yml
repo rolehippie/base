@@ -1,0 +1,13 @@
+# Standards: 1.2
+---
+- name: Install required packages
+  loop: "{{ base_debian_packages + base_debian_additional }}"
+  loop_control:
+    loop_var: pkg
+  package:
+    name: "{{ pkg }}"
+    state: present
+  tags:
+    - base
+
+...
