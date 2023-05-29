@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/rolehippie/base/compare/v1.0.0...v1.1.0) (2023-05-29)
+
+
+### Features
+
+* integrate options for debian-based systems ([f870a11](https://github.com/rolehippie/base/commit/f870a1153d92616b232f66a3832fbdc44a8842e6))
+
 ## 1.0.0 (2023-01-04)
 
 
