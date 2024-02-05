@@ -1,4 +1,3 @@
-# Standards: 1.2
 ---
 - name: Install required packages
   loop: "{{ base_debian_packages + base_debian_additional }}"
