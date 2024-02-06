@@ -3,7 +3,7 @@
   loop: "{{ base_debian_packages + base_debian_additional }}"
   loop_control:
     loop_var: pkg
-  package:
+  ansible.builtin.package:
     name: "{{ pkg }}"
     state: present
   tags:
