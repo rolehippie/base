@@ -41,7 +41,7 @@ Additionally install on Debian
 #### Default value
 
 ```YAML
-base_debian_additional: '{{ base_ubuntu_additional }}'
+base_debian_additional: []
 ```
 
 ### base_debian_packages
@@ -51,7 +51,24 @@ List of packages to install on Debian
 #### Default value
 
 ```YAML
-base_debian_packages: '{{ base_ubuntu_packages }}'
+base_debian_packages:
+  - apt-transport-https
+  - software-properties-common
+  - tree
+  - htop
+  - iotop
+  - sysstat
+  - ipvsadm
+  - update-notifier-common
+  - socat
+  - jq
+  - curl
+  - apt-dater-host
+  - net-tools
+  - traceroute
+  - acl
+  - haveged
+  - tmux
 ```
 
 ### base_ubuntu_additional
