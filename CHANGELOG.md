@@ -1,5 +1,14 @@
 # Changelog
 
+## [2.4.0](https://github.com/rolehippie/base/compare/v2.3.0...v2.4.0) (2026-08-17)
+
+### Dependencies
+
+* **minor:** update dependency pipx:ansible-lint to v26.8.0 ([#60](https://github.com/rolehippie/base/issues/60)) ([7fc7d0d](https://github.com/rolehippie/base/commit/7fc7d0da508b42172356a44438d6b3f903922377))
+* **minor:** update dependency pipx:molecule to v26.8.0 ([#61](https://github.com/rolehippie/base/issues/61)) ([c32725d](https://github.com/rolehippie/base/commit/c32725d73c07634dc169565aeaa88a81aa522a04))
+* **patch:** update dependency pipx:ansible-core to v2.21.3 ([#58](https://github.com/rolehippie/base/issues/58)) ([39fbe8e](https://github.com/rolehippie/base/commit/39fbe8ecf6dea344d61f7b424cf19e0c874d42cd))
+* **patch:** update dependency pre-commit to v4.6.2 ([#59](https://github.com/rolehippie/base/issues/59)) ([87886a0](https://github.com/rolehippie/base/commit/87886a0eec9608036a8fb15865b8763ca5357b40))
+
 ## [2.3.0](https://github.com/rolehippie/base/compare/v2.2.0...v2.3.0) (2026-08-10)
 
 ### Dependencies
